@@ -1,6 +1,10 @@
 import React from 'react';
 
 class Accordion extends React.Component {
+  static defaultProps = {
+    sections: []
+  };
+
   state = {
     lastClicked: null
   };

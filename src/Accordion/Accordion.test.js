@@ -5,7 +5,7 @@ import Accordion from './Accordion'
 
 const sectionsProp = [
   {
-    title: 'Section 1',
+    title: 'Section 4',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
