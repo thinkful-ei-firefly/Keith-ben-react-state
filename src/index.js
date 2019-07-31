@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Drill1 from './state-drills';
+// import Drill1 from './state-drills/HelloWorld';
+import Bomb from './state-drills/Bomb';
 
-ReactDOM.render(<Drill1 />, document.getElementById('root'));
+ReactDOM.render(<Bomb />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
